@@ -18,12 +18,14 @@ namespace SMB_SaaS.BusinessLogic.Pages
         private readonly By SaveProfileButtonLocator = By.XPath("//button/span[contains(text(),'Save')]");
         private readonly By AddMyAddressButtonLocator = By.XPath("//div[contains(text(), 'Street')]/following::input[1]");
         private readonly By DeleteAccountButtonLocator = By.XPath("//div[contains(text(), 'Building')]/following::input[1]");
+        private readonly By UserEmailFieldLocator = By.XPath("//div[contains(text(), 'E-mail')]/following::input[1]");
 
         private BaseElement FullNameField => new BaseElement(FullNameLocator);
         private BaseElement PhoneNumberField => new BaseElement(PhoneNumberLocator);
         private BaseElement PasswordField => new BaseElement(PasswordFieldLocator);
         private BaseElement SaveProfileButton => new BaseElement(SaveProfileButtonLocator);
         private BaseElement OpenUserProfileButton => new BaseElement(OpenUserProfileButtonLocator);
+        private BaseElement UserEmailField => new BaseElement(UserEmailFieldLocator);
         public UserAccountPage()
         {
             ClickOpenUserAccountButton();
@@ -35,6 +37,11 @@ namespace SMB_SaaS.BusinessLogic.Pages
             InputPhoneNumber(phoneNumber);
             InputPassword(password);
             SaveProfileData();
+        }
+        public string GetUserPrifileEmail()
+        {
+            UserEmailField.WaitForIsVisible();
+            return UserEmailField.GetAttribute("value");
         }
         private void InputFullName(string fullName)
         {

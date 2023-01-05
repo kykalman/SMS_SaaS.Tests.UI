@@ -27,6 +27,8 @@ namespace SMS_SaaS.Tests.UI.Tests
 
             var homePage = new HomePage(storeTitle);
             homePage.LoginPanel.CreateNewUserAccount(email, password);
+
+            AssertionHelper.UserProfileAssertions.AssertEmailProfileEqualsExpected(email);
         }
 
         [TestMethod]
@@ -41,6 +43,7 @@ namespace SMS_SaaS.Tests.UI.Tests
             homePage.LoginPanel.CreateNewUserAccount(email, password);
 
             var userAccountPage = new UserAccountPage();
+            
             userAccountPage.UpdateUserProfile(StringGenerator.GenerateFullName(), StringGenerator.GeneratePhoneNumber(), password);            
         }
     }
