@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMS_SaaS.Tests.UI", "SMS_Sa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMB_SaaS.BusinessLogic", "SMB_SaaS.BusinessLogic\SMB_SaaS.BusinessLogic.csproj", "{B099BCE2-4C98-4699-B089-7B5969B85037}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMB_SaaS.Core", "YandexDisk.Core\SMB_SaaS.Core.csproj", "{C06FF21E-8618-44D7-ABCE-E9A912281B92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMB_SaaS.Core", "SMS_SaaS.Core\SMB_SaaS.Core.csproj", "{7958080C-44F8-4A63-B5BE-72955D6BA1BA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,14 +33,14 @@ Global
 		{B099BCE2-4C98-4699-B089-7B5969B85037}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B099BCE2-4C98-4699-B089-7B5969B85037}.Release|x64.ActiveCfg = Release|x64
 		{B099BCE2-4C98-4699-B089-7B5969B85037}.Release|x64.Build.0 = Release|x64
-		{C06FF21E-8618-44D7-ABCE-E9A912281B92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C06FF21E-8618-44D7-ABCE-E9A912281B92}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C06FF21E-8618-44D7-ABCE-E9A912281B92}.Debug|x64.ActiveCfg = Debug|x64
-		{C06FF21E-8618-44D7-ABCE-E9A912281B92}.Debug|x64.Build.0 = Debug|x64
-		{C06FF21E-8618-44D7-ABCE-E9A912281B92}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C06FF21E-8618-44D7-ABCE-E9A912281B92}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C06FF21E-8618-44D7-ABCE-E9A912281B92}.Release|x64.ActiveCfg = Release|x64
-		{C06FF21E-8618-44D7-ABCE-E9A912281B92}.Release|x64.Build.0 = Release|x64
+		{7958080C-44F8-4A63-B5BE-72955D6BA1BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7958080C-44F8-4A63-B5BE-72955D6BA1BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7958080C-44F8-4A63-B5BE-72955D6BA1BA}.Debug|x64.ActiveCfg = Debug|x64
+		{7958080C-44F8-4A63-B5BE-72955D6BA1BA}.Debug|x64.Build.0 = Debug|x64
+		{7958080C-44F8-4A63-B5BE-72955D6BA1BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7958080C-44F8-4A63-B5BE-72955D6BA1BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7958080C-44F8-4A63-B5BE-72955D6BA1BA}.Release|x64.ActiveCfg = Release|x64
+		{7958080C-44F8-4A63-B5BE-72955D6BA1BA}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

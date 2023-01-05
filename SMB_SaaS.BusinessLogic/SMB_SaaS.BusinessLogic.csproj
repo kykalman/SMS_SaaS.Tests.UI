@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\YandexDisk.Core\SMB_SaaS.Core.csproj" />
+    <ProjectReference Include="..\SMS_SaaS.Core\SMB_SaaS.Core.csproj" />
   </ItemGroup>
 
 </Project>
